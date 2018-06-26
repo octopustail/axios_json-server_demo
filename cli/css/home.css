@@ -40,3 +40,6 @@ img {
     font-size:14px;
     color: #e9967a;
 }
+a {
+    text-decoration: none;
+}

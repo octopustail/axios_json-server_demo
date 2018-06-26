@@ -20,7 +20,7 @@ window.onload = function () {
         <div class="m-title">${movie.title}</div>
         <div class="m-score">${movie.date}</div>
         <div class="m-score">${movie.director}</div>
-        <div class="delete" data-id=${movie.id}>-</div>
+        <i class="delete" data-id=${movie.id}>-</i>
       
     </li>`
                         });
