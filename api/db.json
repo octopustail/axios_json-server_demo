@@ -1,0 +1,34 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "大坏章鱼的故事",
+      "date": "2018-01-20",
+      "director": "Octopus-tail"
+    },
+    {
+      "title": "我看见了光",
+      "date": "2018-2-10",
+      "director": "抖森",
+      "id": 4
+    },
+    {
+      "title": "儿儿",
+      "date": "34",
+      "director": "343",
+      "id": 6
+    },
+    {
+      "title": "大坏狐狸",
+      "date": "3",
+      "director": "3",
+      "id": 7
+    },
+    {
+      "title": "小坏狐狸",
+      "date": "2018-2-10",
+      "director": "3",
+      "id": 8
+    }
+  ]
+}

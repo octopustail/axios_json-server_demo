@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0
+}
+body{
+    background: #eee;
+}
+img {
+    max-width: 100%
+}
+
+#movie-row {
+    background: #fff;
+    margin: 40px;
+    width: 700px;
+    height: 300px;
+    border: 1px solid #ddd;
+}
+
+.movie-box {
+    text-align: center;
+    margin: 0 10px;
+    list-style-type: none;
+    float: left;
+    height: 100%;
+}
+
+.m-poster {
+    margin-top: 10px;
+    max-width: 100px;
+    max-height: 200px;
+
+}
+
+.m-title{
+    text-align: center;
+}
+
+.m-score{
+    font-size:14px;
+    color: #e9967a;
+}
