@@ -11,7 +11,6 @@ window.onload = function () {
                 if (response.data) {
                     console.log('succeed');
                     form.reset();
-
                 }
             }
         ).catch(function (error) {

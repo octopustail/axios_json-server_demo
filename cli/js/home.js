@@ -38,7 +38,7 @@ window.onload = function () {
                 if (movieId) {
                     let confireDel = confirm("确认删除？");
                     if (confireDel)
-                        deleteMovieById(movieId)
+                        homepage.func.deleteMovieById(movieId)
                     else return
                 } else return
             },
@@ -46,7 +46,7 @@ window.onload = function () {
                 axios.delete(`http://localhost:3000/movies/${movieId}`)
                     .then(function (response) {
                         if (response.status === 200) {
-                            render()
+                            homepage.func.render()
 
                         }
                     })
